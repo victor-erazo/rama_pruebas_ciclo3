@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <!––<style> div{ text-align:justify; font-weight: bold;}</style>––>
+    
+</head>
+<body>
+    <h1 id="titulo_contac">TITULO 1: Bienvenido a CONTACTO</h1>
+    BIENVENIDOOOOOOOOOOOOOOOOOOOOOO A CONTACTO !!!!
+    
+    <!––<div id="formulario" style="background-color: blueviolet;">––>
+    <div id="formulario">    
+    <form method="POST" action="/api/contacto">
+        <label for="txtNombre">Nombre:</label>
+        <input id="txtNombre" type="txt" name="firstname"><br>
+        <label for="txtApellido">Apellido:</label>
+        <input id="txtApellido" type="txt" name="lastname"><br>
+        <label for="slTipoDoc">tipo de Documento:</label>
+        <select id="slTipoDoc" name="DocumentType"><br>
+            <option value="cc">Cedula Ciudadania</option>
+            <option value="ti">tarjeta id</option>
+            <option value="rg">registro civil</option>
+        </select>    
+        <br>
+        <label for="numDoc">Numero ID:</label>
+        <input id="numDoc" type="number" name="documentNumber">
+        <br>
+        
+        <label for="txtFecha">Fecha de Nacimiento:</label>
+        <input id="txtFecha" type="date" name="birthdate">
+        <br>
+        <label for="colorsazo">Color favorito:</label>
+        <input id="colorsazo" type="color" name="color">
+        <br>
+        <label for="genero">Genero:</label>
+        <input id="generoHombre" type="radio" name="gender" value="M" checked> 
+        <label for="generoHombre">Masculino</label>
+        <input id="generoMujer" type="radio" name="gender" value="F"> 
+        <label for="generoMujer">femenino</label>
+        <br>
+        <label for="depor">Deportes que practica:</label>
+        <input id="ckf" type="checkbox" name="futbol"> <label for="ckf">futbol</label>
+        <input id="ckb" type="checkbox" name="basketball"checked> <label for="ckb">Baloncesto</label>
+        <input id="ckt" type="checkbox"name="tejo"> <label for="ckt">Tejo</label>
+        <input id="cko" type="checkbox" name="otro"> <label for="cko">otro</label>
+        <br>
+        <label for="txtSerial">contraseña:</label>
+        <input id="txtSerial" type="password" name="password">
+
+        <input type="submit">
+        <input type="reset">
+
+        <button type="submit">enviar</button>
+        <button type="reset">limpiar</button>    
+    
+    </form>
+    </div>
+
+    <!––<div id="parrafito" style="border: 3px solid; background-color: aqua;">––>
+    <div id="parrafito">
+        <p>hola como estan Lorem <span id="cita1">ipsum dolor sit</span> amet consectetur adipisicing elit. Sit doloribus, amet suscipit praesentium commodi error culpa nihil quibusdam ratione accusamus fuga alias deserunt laboriosam perspiciatis dolore deleniti illo impedit repudiandae.</p>
+
+    <p>hola como estan  <span id="cita2">Lorem ipsum dolor</span> sit amet consectetur adipisicing elit. Sit doloribus, amet suscipit praesentium commodi error culpa nihil quibusdam ratione accusamus fuga alias deserunt laboriosam perspiciatis dolore deleniti illo impedit repudiandae.</p>
+    </div>
+
+
+    <div>block</div>
+    <span>inline</span>
+
+</body>
+</html>
