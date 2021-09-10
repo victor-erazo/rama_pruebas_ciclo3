@@ -1,16 +1,55 @@
+/* Conexion etiqueta BODY */
 body{
     background-color: darkorange;
 }
 
+/* Conexion etiqueta TITULO h1 */
 h1{
    text-align: center;    
    font-size: 50px; 
 }
 
+/* Conexion etiqueta FORM */
 form{
     text-align: center;    
 }
 
+/* Conexion etiqueta INPUT */
 input{
     background-color: darkgray;
 }
+
+/* Conexion con ID formulario */
+#formulario{
+    background-color: crimson;
+    color: antiquewhite;
+    font-size: larger;
+
+}
+
+/* Conexion con ID parrafito */
+#parrafito{
+    background-color:white;
+    color:blue;
+    font-size: xx-large;
+
+}
+
+/* Conexion por medio de clase */
+.cita{
+    text-transform:uppercase;
+    font-style: italic;
+    font-weight: bold;
+} 
+/*
+#cita2{
+    text-transform:uppercase;
+    font-style: italic;
+
+} */
+
+#cita3{
+    text-transform:uppercase;
+    font-style: italic;
+
+} 
